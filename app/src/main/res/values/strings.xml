@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">TerminalInfo</string>
+    <string name="refresh">Refresh</string>
+    <string name="all_codes_separated_by_tab">All codes separated by tab</string>
+    <string name="todo">TODO</string>
+    <string name="todo">TODO</string>
 </resources>

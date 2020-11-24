@@ -11,15 +11,15 @@
 
 <LinearLayout
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:orientation="vertical"
     android:weightSum="1">
-    >
+
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Refresh"
+        android:text="@string/refresh"
         android:id="@+id/bt_refresh"
         android:layout_gravity="center_horizontal" />
 
@@ -33,7 +33,7 @@
             android:layout_height="wrap_content"
             android:text="New Text"
             android:id="@+id/txt_ethmacadress"
-            android:layout_alignParentLeft="false"
+            android:layout_alignParentStart="false"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true" />
 
@@ -41,9 +41,10 @@
             android:layout_width="128dp"
             android:layout_height="128dp"
             android:id="@+id/iv_ethmacadress"
-            android:layout_alignParentRight="false"
+            android:layout_alignParentEnd="false"
             android:layout_centerHorizontal="true"
-            android:layout_below="@+id/txt_ethmacadress" />
+            android:layout_below="@+id/txt_ethmacadress"
+            android:contentDescription="TODO" />
 
         <View
             android:layout_width="match_parent"
@@ -63,9 +64,9 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="All codes separated by tab"
+            android:text="@string/all_codes_separated_by_tab"
             android:id="@+id/txt_allcodes"
-            android:layout_alignParentLeft="false"
+            android:layout_alignParentStart="false"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true" />
 
@@ -73,9 +74,10 @@
             android:layout_width="192dp"
             android:layout_height="192dp"
             android:id="@+id/iv_allcodes"
-            android:layout_alignParentRight="false"
+            android:layout_alignParentEnd="false"
             android:layout_below="@+id/txt_allcodes"
-            android:layout_centerHorizontal="true" />
+            android:layout_centerHorizontal="true"
+            android:contentDescription="TODO" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -106,7 +108,7 @@
         android:layout_height="wrap_content"
         android:text="New Text"
         android:id="@+id/txt_serialnumber"
-        android:layout_alignParentLeft="false"
+        android:layout_alignParentStart="false"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
 
@@ -114,9 +116,10 @@
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:id="@+id/iv_serialnumber"
-        android:layout_alignParentRight="false"
+        android:layout_alignParentEnd="false"
         android:layout_below="@+id/txt_serialnumber"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:contentDescription="TODO" />
 
     <View
         android:layout_width="match_parent"
@@ -138,7 +141,7 @@
             android:layout_height="wrap_content"
             android:text="New Text"
             android:id="@+id/txt_imei"
-            android:layout_alignParentLeft="false"
+            android:layout_alignParentStart="false"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true" />
 
@@ -146,9 +149,10 @@
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:id="@+id/iv_imei"
-            android:layout_alignParentRight="false"
+            android:layout_alignParentEnd="false"
             android:layout_below="@+id/txt_imei"
-            android:layout_centerHorizontal="true" />
+            android:layout_centerHorizontal="true"
+            android:contentDescription="TODO" />
 
         <View
             android:layout_width="match_parent"
@@ -171,7 +175,7 @@
             android:layout_height="wrap_content"
             android:text="New Text"
             android:id="@+id/txt_numtel"
-            android:layout_alignParentLeft="false"
+            android:layout_alignParentStart="false"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true" />
 
@@ -179,9 +183,10 @@
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:id="@+id/iv_numtel"
-            android:layout_alignParentRight="false"
+            android:layout_alignParentEnd="false"
             android:layout_centerHorizontal="true"
-            android:layout_below="@+id/txt_numtel" />
+            android:layout_below="@+id/txt_numtel"
+            android:contentDescription="@string/todo" />
 
         <View
             android:layout_width="match_parent"
@@ -203,7 +208,7 @@
             android:layout_height="wrap_content"
             android:text="New Text"
             android:id="@+id/txt_simserial"
-            android:layout_alignParentLeft="false"
+            android:layout_alignParentStart="false"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true" />
 
@@ -213,7 +218,8 @@
             android:id="@+id/iv_simserial"
             android:layout_alignParentRight="false"
             android:layout_centerHorizontal="true"
-            android:layout_below="@+id/txt_simserial" />
+            android:layout_below="@+id/txt_simserial"
+            android:contentDescription="@string/todo" />
 
         <View
             android:layout_width="match_parent"
@@ -235,7 +241,7 @@
             android:layout_height="wrap_content"
             android:text="New Text"
             android:id="@+id/txt_macadress"
-            android:layout_alignParentLeft="false"
+            android:layout_alignParentStart="false"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true" />
 
@@ -243,9 +249,10 @@
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:id="@+id/iv_macadress"
-            android:layout_alignParentRight="false"
+            android:layout_alignParentEnd="false"
             android:layout_centerHorizontal="true"
-            android:layout_below="@+id/txt_macadress" />
+            android:layout_below="@+id/txt_macadress"
+            android:contentDescription="TODO" />
 
         <View
             android:layout_width="match_parent"
